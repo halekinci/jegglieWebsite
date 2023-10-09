@@ -1,0 +1,141 @@
+@import url("Raleway_Bold/stylesheet.css");
+@import url("Raleway/stylesheet.css");
+@import url("Playfair_Display/stylesheet.css");
+@import url("Playfair_Italics/stylesheet.css");
+p {
+    font-family: "Raleway";
+    font-size: 13pt;
+}	
+
+body {
+	margin:0;
+	background-color: #313131;
+	}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111111;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: "Raleway";
+    font-weight: bold;
+}
+
+nav li {
+  float: left;
+}
+
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+	font-weight: bolder;
+}
+
+nav li a:hover:not(.active) {
+  background-color: #313131;
+	font-weight: bolder;
+}
+
+.active {
+  background-color: #E3735E;
+}
+	.body {
+    font-family: "Raleway";
+    background-color: #313131;
+    color: #FFFFFF;
+    margin: 7%;
+}
+	img {
+    margin-left: auto;
+    margin-right: 25px;
+    width: 25%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+	}
+	
+	h1 {
+    color: #E3735E;
+    font-family: 'PlayfairDisplay Bold';
+    font-size: 4em;
+	}
+	
+	a {
+		color: #E3735E;
+		font-weight: bold
+	}
+	a:hover {
+		color: #BBBBBB;
+	}
+	h2 {
+    color: #E3735E;
+    font-size: 2em;
+    font-family: 'PlayfairDisplay Bold';
+    padding-top: 0px;
+	}
+	h4 {
+    font-family: "Playfair Italics";
+    font-size: 16pt;
+	}
+	h3 {
+    font-family: "Playfair Italics";
+    font-size: 2.5em
+	}
+	ul {
+    line-height: normal;
+    font-family: "Raleway";
+	}
+	.newspaper {
+    column-count: 3;
+		column-gap: 60px;
+		column-rule-style: solid;
+		column-fill: auto;
+		}
+	
+	.sectionBGcolor {
+		background-color: #111111;
+		padding: 25px
+	}
+	.italics {
+    font-family: "Playfair Italics";
+	}
+	.button {
+    background-color: #E3735E;
+    font-family: "Raleway";
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button:hover {
+  background-color: #ffffff;
+  color: #e3735e;
+}	
+.imgR {
+    float: right;
+    padding-left: 0px;
+}		
+.imgL {
+    float: left;
+    padding-left: 0px;
+	border-color: white;
+}		
+
+.imgcenter {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
